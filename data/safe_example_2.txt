@@ -1,0 +1,7 @@
+Subject: Your Invoice [#INV-44702]
+
+Hello,
+This is a reminder that your monthly invoice is attached. Please make the payment within 10 business days.
+
+Regards,
+Finance Team

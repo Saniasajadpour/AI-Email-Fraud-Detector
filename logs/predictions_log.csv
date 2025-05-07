@@ -1,0 +1,5 @@
+Timestamp,Label,Confidence,TextPreview
+2025-04-30 21:02:28,Fraudulent,0.5567,jjijnnnbnnv hi hi hi
+2025-04-30 21:03:08,Safe,0.6903,hi how are you
+2025-04-30 21:03:41,Safe,0.6903,hi how are you hhhhhhhhhhhhhhhhhhhhhhh
+2025-04-30 21:04:03,Fraudulent,0.5567,hhhhhhhhhhhhhhhhhhhhhhh

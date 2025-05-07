@@ -1,0 +1,10 @@
+build/
+dist/
+venv/
+*.exe
+*.dll
+*.pkg
+*.pkl
+*.log
+*.pyc
+__pycache__/
