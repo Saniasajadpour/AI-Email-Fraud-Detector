@@ -8,3 +8,8 @@ venv/
 *.log
 *.pyc
 __pycache__/
+.vscode/
+.idea/
+*.ipynb
+.DS_Store
+Thumbs.db
