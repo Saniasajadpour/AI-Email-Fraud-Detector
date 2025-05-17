@@ -1,6 +1,7 @@
 # app.py
 
 import sys
+import os
 from PyQt6.QtWidgets import QApplication, QMainWindow, QStackedWidget
 from PyQt6.QtGui import QPalette, QBrush, QPixmap, QIcon
 from PyQt6.QtCore import Qt
@@ -15,7 +16,11 @@ class FraudDetectionApp(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("📧 Email Fraud Detection System")
-        self.setWindowIcon(QIcon("icons/app_icon.ico"))  # ✅ Set app icon here
+
+        # ✅ Dynamic and portable icon path
+        icon_path = os.path.join(os.getcwd(), "icons", "app_icon.ico")
+        self.setWindowIcon(QIcon(icon_path))
+
         self.setGeometry(100, 100, 1000, 700)
 
         self.dark_background = "assets/background_dark.png"
